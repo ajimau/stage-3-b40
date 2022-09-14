@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+.nav-left {
+    flex: 50%; /*mengatur lebar*/
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-right {
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.nav-right a {
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+
+.container {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    align-items: center;
+}
+
+.left {
+    flex: 60%;
+    margin: 20px 50px;
+}
+
+.ctc {
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin: 30px 30px 0 0;
+}
+
+.logo-download {
+    width: 15px;
+}
+
+.logoku {
+    text-align: left;
+}
+
+.sub-logo {
+    width: 50px;
+    border-radius: 50%;
+    margin: 50px 50px 0 0;
+}
+
+.right {
+    flex: 40%;
+    margin: 20px 50px;
+}

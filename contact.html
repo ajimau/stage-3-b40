@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Contact Form</title>
+		<link rel="stylesheet" href="contact.css">
+	</head>
+	<body>
+
+		<nav>
+
+			<div class="nav-left">
+				
+				<ul>
+					<li>
+						<img src="images/logo.png" style="width: 50px;">
+					</li>
+		
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+	
+					<li>
+						<a href="#">My Project</a>
+					</li>
+	
+				</ul>
+			</div>
+	
+			<div class="nav-right">
+				<a href="contact.html">Contact Me</a>
+			</div>
+	
+		</nav>
+
+		<h2>GET IN TOUCH</h2>
+
+		<Form>
+
+			<div>
+				<label for="input-name">Name</label>
+				<input type="text" id="input-name">
+			</div>
+
+			<div>
+				<label for="input-email">Email</label>
+				<input type="text" id="input-email">
+			</div>
+
+			<div>
+				<label for="input-phone">Phone Number</label>
+				<input type="number" id="input-phone">
+			</div>
+
+			<div>
+				<label for="input-subject">Subject</label>
+				<select id="input-subject">
+					<option>Frontend</option>
+					<option>Backend</option>
+					<option>Fullstack</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="input-message">Your Message</label>
+				<textarea id="input-message" rows="5" cols="10"></textarea>
+			</div>
+
+			<div class="button">
+				<button type="button" onclick="submitData()">Submit</button>
+			</div>
+
+		</Form>
+
+		<script src="contact.js"></script>
+
+	</body>
+</html>
