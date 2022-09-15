@@ -85,7 +85,7 @@ function submitData() {
     console.log(message);
 
     let a = document.createElement('a')
-    a.href = `mailto:rhomairama@gmail.com?subject=${subject}&body=hello my name ${name}, ${message}, silakan kontak ke nomor ${phone}`
+    a.href = `mailto:${email}?subject=${subject}&body=hello my name ${name}, ${message}, silakan kontak ke nomor ${phone}`
 
     a.click()
 }
